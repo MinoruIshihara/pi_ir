@@ -1,0 +1,2 @@
+*/1 * * * * root python3 get_image.py
+*/5 * * * * root python3 post_image.py
