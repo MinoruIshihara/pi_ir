@@ -41,5 +41,5 @@ if __name__ == "__main__":
         file_name = f"data/{current_time}.png"
         cv2.imwrite(file_name, img)
         time.sleep(1)
-        post_ir_image()
+        post_ir_image.post_ir(file_name)
         time.sleep(2)
