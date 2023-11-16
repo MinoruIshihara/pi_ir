@@ -1,11 +1,12 @@
+import datetime
+import os
+import time
+
 import cv2
+import numpy as np
+import requests
 from cv2 import add
 from flirpy.camera.boson import Boson
-import numpy as np
-import time
-import os
-import datetime
-import requests
 
 
 def get_ir():
