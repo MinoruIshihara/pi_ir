@@ -42,7 +42,7 @@ def get_ir():
 
 
 def post_ir(img_name):
-    host_name = "http://163.221.158.54:8080/wallpaper/"
+    host_name = "http://localhost:8080/ir_server/"
 
     headers = {
         "Content-Type": "multipart/form-data",
