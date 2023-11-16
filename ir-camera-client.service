@@ -1,0 +1,11 @@
+[Unit]
+Description=IrCameraClient
+
+[Service]
+ExecStart=/sbin/ir-camera-client
+Restart=always
+Type=forking
+PIDFile=/var/run/ir-camera-client.pid
+
+[Install]
+WantedBy=multi-user.target
